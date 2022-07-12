@@ -1,0 +1,227 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --background-color: #ffffff;
+  --background-color-second: #2f303a;
+  --background-color-btn: #f5f4fa;
+  --color-btn-portfolio: #212121;
+  --color-tel-email: rgba(255, 255, 255, 0.6);
+  --color-logo: #000000;
+  --button-order-hover: #188ce8;
+  --color-portfolio-projects: #eeeeee;
+  --background-color-main: #e5e5e5;
+}
+/* ========================Body============================== */
+.container {
+  width: 1230;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style: none;
+}
+/*=========================Header===========================*/
+/* Logo */
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo .logo-web-word {
+  color: var(--accent-text-color);
+}
+.logo-studio-word {
+  color: var(--color-logo);
+}
+/* Site-nav */
+.site-nav a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.site-nav .site-nav-link {
+  color: var(--title-text-color);
+}
+.site-nav .active-link,
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-text-color);
+}
+
+/* Contacts */
+.our-contacts {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.link-email-header-contacts:hover,
+.link-email-header-contacts:focus {
+  color: var(--accent-text-color);
+}
+
+.link-tel-header-contacts:hover,
+.link-tel-header-contacts:focus {
+  color: var(--accent-text-color);
+}
+.link-email-header-contacts,
+.link-tel-header-contacts {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+/* ===========================Main content==================================*/
+/* ===========================Hero =========================================*/
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--background-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* ================================Section=========================== */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.text {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
+}
+.section-title-our-work,
+.section-title-our-team {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.team {
+  background-color: var(--background-color-btn);
+}
+.section-title-names {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.our-team .list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.our-projects {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+.section-title-page-second {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+/* ==============================Button============================*/
+.button {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.button-order {
+  display: inline-block;
+  padding: 10px 32px;
+  min-width: 200px;
+  background-color: var(--accent-text-color);
+  color: var(--background-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 4px;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.button-order:hover,
+.button-order:focus {
+  background-color: var(--button-order-hover);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.button-page-second .button:hover,
+.button-page-second .button:focus {
+  background-color: var(--accent-text-color);
+  color: var(--background-color);
+}
+.button-page-second .button {
+  display: inline-block;
+  padding: 6px 22px;
+}
+/* ================================Footer============================== */
+.address {
+  background-color: var(--background-color-second);
+}
+.logo-studio-footer {
+  color: var(--background-color);
+}
+.location {
+  color: var(--background-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+.link-email-footer-contacts,
+.link-tel-footer-contacts {
+  color: var(--color-tel-email);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+.link-email-footer-contacts:hover,
+.link-email-footer-contacts:focus,
+.link-tel-footer-contacts:hover,
+.link-tel-footer-contacts:focus {
+  color: var(--accent-text-color);
+}
