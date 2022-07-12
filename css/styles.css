@@ -58,9 +58,14 @@ body {
 .site-nav a:focus {
   color: var(--accent-text-color);
 }
-
+.site-nav {
+  padding: 0px;
+  margin: 0px;
+}
 /* Contacts */
 .our-contacts {
+  padding: 0px;
+  margin: 0px;
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: 500;
@@ -88,6 +93,8 @@ body {
   background-color: #2f303a;
 }
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: var(--background-color);
   font-weight: 900;
   font-size: 44px;
