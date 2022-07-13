@@ -30,9 +30,6 @@ body {
 .list {
   list-style: none;
 }
-img {
-  display: block;
-}
 h1,
 h2,
 h3,
@@ -44,6 +41,9 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+}
+img {
+  display: block;
 }
 /*=========================Header===========================*/
 .page-header {
@@ -78,14 +78,8 @@ ul {
 .site-nav a:focus {
   color: var(--accent-text-color);
 }
-.site-nav {
-  padding: 0px;
-  margin: 0px;
-}
 /* Contacts */
 .our-contacts {
-  padding: 0px;
-  margin: 0px;
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: 500;
@@ -154,8 +148,6 @@ ul {
   text-transform: uppercase;
 }
 .text {
-  margin-top: 0px;
-  margin-bottom: 0px;
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
@@ -182,23 +174,17 @@ ul {
   line-height: 1.18;
 }
 .our-team .list {
-  margin-top: 0px;
-  margin-bottom: 0px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
 }
 
 .our-projects {
-  margin-top: 0px;
-  margin-bottom: 0px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
 }
 .section-title-page-second {
-  margin-top: 0px;
-  margin-bottom: 0px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
