@@ -132,6 +132,10 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.section.no-padding {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -145,6 +149,7 @@ img {
   line-height: 1.14;
   text-transform: uppercase;
 }
+
 .text {
   color: var(--primary-text-color);
   font-weight: 400;
@@ -159,6 +164,7 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  text-align: center;
 }
 .team {
   background-color: var(--background-color-btn);
@@ -183,6 +189,8 @@ img {
   line-height: 1.87;
 }
 .section-title-page-second {
+  padding-top: 20px;
+  padding-bottom: 4px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
