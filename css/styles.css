@@ -64,7 +64,17 @@ img {
   color: var(--color-logo);
 }
 /* Site-nav */
+.site-nav {
+  display: flex;
+}
+.site-nav .item:not(last child) {
+  margin-right: 50px;
+}
 .site-nav a {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -80,6 +90,8 @@ img {
 }
 /* Contacts */
 .our-contacts {
+  display: flex;
+
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: 500;
@@ -87,6 +99,14 @@ img {
   line-height: 1.14;
   text-decoration: none;
 }
+.our-contacts .item:not(last child) {
+  margin-right: 50px;
+}
+
+/* .our-contacts .item + .item {
+  margin-right: 50px;
+} */
+
 .link-email-header-contacts:hover,
 .link-email-header-contacts:focus {
   color: var(--accent-text-color);
