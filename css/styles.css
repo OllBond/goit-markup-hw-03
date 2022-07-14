@@ -46,9 +46,7 @@ img {
   display: block;
 }
 /*=========================Header===========================*/
-.page-header {
-  border-bottom: 1px solid #ececec;
-}
+
 /* Logo */
 .logo {
   font-family: 'Raleway';
@@ -63,9 +61,19 @@ img {
 .logo-studio-word {
   color: var(--color-logo);
 }
+/* Main-nav */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
 /* Site-nav */
 .site-nav {
   display: flex;
+  margin-left: 90px;
 }
 .site-nav .item:not(last child) {
   margin-right: 50px;
@@ -91,6 +99,7 @@ img {
 /* Contacts */
 .our-contacts {
   display: flex;
+  margin-left: auto;
 
   color: var(--primary-text-color);
   font-style: normal;
@@ -229,6 +238,7 @@ img {
 .button-order {
   display: inline-block;
   padding: 10px 32px;
+
   min-width: 200px;
   background-color: var(--accent-text-color);
   color: var(--background-color);
