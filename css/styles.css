@@ -14,7 +14,7 @@
 }
 /* ========================Body============================== */
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -114,10 +114,6 @@ img {
 .our-contacts .item:not(last child) {
   margin-right: 50px;
 }
-
-/* .our-contacts .item + .item {
-  margin-right: 50px;
-} */
 
 .link-email-header-contacts:hover,
 .link-email-header-contacts:focus {
@@ -278,6 +274,7 @@ img {
   display: inline-block;
   padding: 10px 32px;
   min-width: 200px;
+
   background-color: var(--accent-text-color);
   color: var(--background-color);
   font-family: inherit;
