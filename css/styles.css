@@ -169,8 +169,21 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.list {
+.our-benefits {
   display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 270px;
+}
+
+.our-work {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 370px;
+}
+.our-work-pictures {
+  flex-basis: calc((100% - 60 / 3));
 }
 .section-title {
   padding-top: 0px;
@@ -288,30 +301,13 @@ img {
   padding-right: 20px;
   padding-left: 20px;
   justify-content: center;
-  /* text-align: center; */
 }
-/* .button-flex-container {
-  display: inline-block;
-  justify-content: center;
-}
-.button-flex-element {
-  margin-right: 8px;
-}
-.button-flex-element:nth-child(5n) {
-  margin: 0px;
-} */
+
 .button-page-second .button:hover,
 .button-page-second .button:focus {
   background-color: var(--accent-text-color);
   color: var(--background-color);
 }
-
-/* .button-page-second .button {
-  display: flex;
-
-  padding: 6px 22px;
-  margin-right: 8px;
-} */
 /* ================================Footer============================== */
 .address {
   background-color: var(--background-color-second);
