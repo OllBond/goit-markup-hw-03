@@ -141,6 +141,7 @@ img {
   width: 696px;
   padding-top: 0;
   padding-bottom: 30px;
+
   color: var(--background-color);
   font-weight: 900;
   font-size: 44px;
@@ -187,6 +188,7 @@ img {
 }
 
 .text {
+  width: 270px;
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
@@ -283,6 +285,7 @@ img {
   display: block;
   padding: 10px 32px;
   min-width: 200px;
+  margin: 0px auto;
 
   background-color: var(--accent-text-color);
   color: var(--background-color);
@@ -321,10 +324,23 @@ img {
 }
 /* ================================Footer============================== */
 .address {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--background-color-second);
 }
 .logo-studio-footer {
   color: var(--background-color);
+}
+
+.our-contacts-footer {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.location-footer {
+  margin-top: 20px;
+  margin-bottom: 9px;
 }
 .location {
   color: var(--background-color);
@@ -341,6 +357,9 @@ img {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+}
+.link-email-footer-contacts {
+  margin-bottom: 9px;
 }
 .link-email-footer-contacts:hover,
 .link-email-footer-contacts:focus,
