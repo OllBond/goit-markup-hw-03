@@ -138,6 +138,7 @@ img {
   text-align: center;
 }
 .hero-title {
+  width: 696px;
   padding-top: 0;
   padding-bottom: 30px;
   color: var(--background-color);
@@ -161,10 +162,6 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.section.no-padding {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -173,34 +170,38 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  width: 270px;
-}
-.our-work {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  width: 370px;
-}
-.our-work-pictures {
-  flex-basis: calc((100% - 60 / 3));
 }
 .section-title {
   padding-top: 0px;
   padding-bottom: 10px;
+
   color: var(--title-text-color);
-  font-weight: 700;
+  font-style: Bold;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
+.our-benefits-text {
+  flex-basis: calc((100% - 90) / 3);
+  width: 270px;
+}
 
 .text {
-  padding-right: 30px;
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.17;
 }
+.our-work {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.our-work-pictures {
+  flex-basis: calc((100% - 60) / 3);
+  width: 370px;
+}
+
 .section-title-our-work,
 .section-title-our-team {
   padding-top: 0px;
@@ -216,19 +217,29 @@ img {
   background-color: var(--background-color-btn);
 }
 
+.our-team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.our-team-pictures {
+  flex-basis: calc((100% - 90px) / 4);
+}
 .section-title-names {
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 }
-.our-team .list {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.18;
+.our-team-pictures-wrapper {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .our-projects {
@@ -241,7 +252,7 @@ img {
   line-height: 1.87;
 }
 .our-progects-pictures {
-  flex-basis: calc((100% - 180px / 3));
+  flex-basis: calc((100% - 180px) / 3);
 }
 
 .our-progects-pictures-wrapper {
@@ -252,6 +263,7 @@ img {
 
 .section-title-page-second {
   margin-bottom: 4px;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
