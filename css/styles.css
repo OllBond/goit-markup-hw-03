@@ -132,9 +132,9 @@ img {
 /* ===========================Main content==================================*/
 /* ===========================Hero =========================================*/
 .hero {
-  background-color: #2f303a;
+  background-color: var(--background-color-second);
   padding-top: 200px;
-  padding-bottom: 94px;
+  padding-bottom: 200px;
   text-align: center;
 }
 .hero-title {
@@ -280,7 +280,7 @@ img {
   cursor: pointer;
 }
 .button-order {
-  display: inline-block;
+  display: block;
   padding: 10px 32px;
   min-width: 200px;
 
