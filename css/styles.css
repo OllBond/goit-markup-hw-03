@@ -197,6 +197,9 @@ img {
   line-height: 1.17;
   letter-spacing: 3%;
 }
+.our-work-section {
+  padding-top: 0px;
+}
 .our-work {
   display: flex;
   flex-wrap: wrap;
