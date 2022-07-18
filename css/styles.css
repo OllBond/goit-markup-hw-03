@@ -65,7 +65,7 @@ img {
   color: var(--color-logo);
 }
 
-.header {
+.header-nav {
   display: flex;
 }
 
