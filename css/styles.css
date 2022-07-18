@@ -29,6 +29,8 @@ body {
 }
 .list {
   list-style: none;
+  padding-left: 0px;
+  margin: 0px;
 }
 h1,
 h2,
@@ -41,6 +43,9 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+}
+.link {
+  text-decoration: none;
 }
 img {
   display: block;
