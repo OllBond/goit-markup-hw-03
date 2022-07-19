@@ -69,10 +69,8 @@ img {
 }
 .container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .container-contacts {
   display: flex;
@@ -145,13 +143,6 @@ img {
 .our-contacts {
   display: flex;
   margin-left: auto;
-
-  /* color: var(--primary-text-color);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  text-decoration: none; */
 }
 .our-contacts .item:not(:last-child) {
   margin-right: 50px;
