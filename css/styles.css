@@ -130,6 +130,9 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+
+  text-decoration: none;
+  letter-spacing: 0.02em;
 }
 .site-nav .site-nav-link {
   color: var(--title-text-color);
@@ -160,7 +163,6 @@ img {
 .link-email-header-contacts,
 .link-tel-header-contacts {
   color: var(--primary-text-color);
-  text-decoration: none;
 }
 /* ===========================Main content==================================*/
 /* ===========================Hero =========================================*/
