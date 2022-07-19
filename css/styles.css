@@ -358,6 +358,9 @@ img {
   padding-bottom: 60px;
   background-color: var(--background-color-second);
 }
+.adress-footer {
+  margin-top: 20px;
+}
 .logo-web-word-footer {
   color: var(--accent-text-color);
 }
@@ -370,7 +373,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
 }
-.location-footer {
+.location-footer:not(:last-child) {
   margin-bottom: 9px;
 }
 .location {
